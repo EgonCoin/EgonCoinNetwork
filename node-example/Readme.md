@@ -11,7 +11,7 @@ cp -r EgonCoinNetwork/node-example/EgonCoin  /root/
 ```
 cd /root/EgonCoin
 chmod +x openethereum
-./openethereum account new --config nodes/moc/moc.toml
+./openethereum account new --config nodes/validator/node.toml
 ```
 Returned address like that 0x00aa39d30f0d20ff03a22ccfc30b7efbfca597c2
 
