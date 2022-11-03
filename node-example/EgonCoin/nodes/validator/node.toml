@@ -1,0 +1,36 @@
+[parity]
+chain = "./spec/spec.json"
+base_path = "./nodes/validator/"
+
+[network]
+port = 30300
+discovery = true
+reserved_peers = "./nodes/reserved_peers"
+
+[account]
+unlock = ["0x00aa39d30f0d20ff03a22ccfc30b7efbfca597c2"]
+password = ["./nodes/validator/node.pwd"]
+
+[mining]
+force_sealing = true
+engine_signer = "0x00aa39d30f0d20ff03a22ccfc30b7efbfca597c2"
+reseal_on_txs = "none"
+
+[rpc]
+cors = ["all"]
+hosts = ["all"]
+port = 8545
+apis = ["web3", "eth", "net", "parity", "traces", "rpc", "personal", "parity_accounts", "signer", "parity_set"]
+
+[websockets]
+disable = false
+port = 8546
+interface = "all"
+origins = ["all"]
+apis = ["web3", "eth", "net", "parity", "traces", "rpc", "personal", "parity_accounts", "signer", "parity_set"]
+hosts = ["all"]
+
+[footprint]
+tracing = "on"
+pruning = "archive"
+fat_db = "on"
