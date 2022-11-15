@@ -38,11 +38,11 @@ reseal_on_txs = "none"
 
     Stake
 
-    To stake CLD coin, all you should do is sending your CLD coin to the EgonCoin Consensus contract address over the EgonCoin network from the validator address.
-    The EgonCoin Consensus contract address: 0x641dCb1B53966084Ca59dc9985a164D414ac1D28
-    The easiest way to do so, is to import your private key or key-store file to your favourite wallet (for example Metamask), switch network to EgonCoin and send the CLD coin to the Consensus contract address.
+    To stake EGC coin, all you should do is sending your EGC coin to the EgonCoin Consensus contract address over the EgonCoin network from the validator address.
+    
+    The easiest way to do so, is to import your wallet into Metamask, switch network to EgonCoin and send the EGC coin to the Consensus contract address.
 
-    You can find your key-store (containing your private key) and the password for the created account in:
+    After import you can access account details here:
     /EgonCoin/nodes/validator/keys/EgonCoin/UTC--xxxx
     /EgonCoin/nodes/validator/node.pwd
 
