@@ -14,7 +14,7 @@ cd /root/EgonCoin
 chmod +x openethereum
 ./openethereum account new --config nodes/validator/node.toml
 ```
-Returned address like this - 0x00aa39d30f0d20ff03a22ccfc30b7efbfca597c2
+Returned address like this - 0x00aa39d30f0d20ff03a22ccfc30b7efbfca597c2 . 
 You can find and save your key-store (containing your private key) and the password for the created account in:
     /EgonCoin/nodes/validator/keys/EgonCoin/UTC--xxxx
     /EgonCoin/nodes/validator/node.pwd
