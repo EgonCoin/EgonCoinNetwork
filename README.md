@@ -1,0 +1,1 @@
+# EgonCoinNetwork info
